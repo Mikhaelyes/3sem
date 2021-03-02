@@ -1,7 +1,8 @@
 #include <iostream>
-#include "lib.h"
+#include "vector2D.h"
 int main()
 {
+	std::cout << sum() <<"\n";
         Complex *a = new Complex(0, 0);
         a->set_x(4);
         a->set_y(8);

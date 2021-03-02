@@ -15,4 +15,5 @@ public:
         Complex *mul1(Complex *A);
         double mod();
 };
+double sum();
 
